@@ -113,16 +113,17 @@ button.active {
 }
 /********* Overview Section **********/
 
-.overview p {
-  font-size: 26px;
-  font-weight: 300;
-}
 .overview_image img {
   image-rendering: -webkit-optimize-contrast;
 }
 .overview_text {
   background-image: url(images/Overviewright.jpg);
   background-size: cover;
+}
+p.unit-size {
+  font-weight: 600;
+  color: #006cb5;
+  font-size: 22px;
 }
 
 /********* aminities *******/
@@ -344,6 +345,9 @@ button.active {
 
   /*** overview ***/
 
+  .unit-size {
+    font-size: x-small !important;
+  }
   /***** banner ***/
 
   #banner {
@@ -354,7 +358,9 @@ button.active {
   .aminitiesImage {
     width: 50%;
   }
-
+  p.unit-size {
+    font-size: 16px;
+  }
   .aminities-text {
     font-weight: 300 !important;
     font-size: 15px !important;
@@ -398,6 +404,7 @@ button.active {
   .enquiry-form-section {
     width: 90% !important;
   }
+
   .enquire-now {
     position: fixed;
     bottom: 0;
@@ -510,6 +517,9 @@ button.active {
 @media (max-width: 500px) {
   .site-plan {
     height: 234px !important;
+  }
+  p.unit-size {
+    font-size: 11px !important;
   }
   .aminities-text {
     font-size: 10px !important;
